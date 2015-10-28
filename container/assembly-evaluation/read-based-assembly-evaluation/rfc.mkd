@@ -57,7 +57,7 @@ arguments:
 - value: STRING
   id: STRING or NUMBER
   type: contig or scaffold
-  format: bioboxes.org:/fastq
+  format: bioboxes.org:/fasta
 ```
 
 ##### Description:
@@ -123,8 +123,8 @@ arguments:
        type: contig
        format: bioboxes.org:/fasta
    fastqs:
-     path: /path/to/short/read.fastq.gz
-     id: lib1
-     type: paired
-     format: bioboxes.org:/fastq
+     - path: /path/to/short/read.fastq.gz
+       id: lib1
+       type: paired
+       format: bioboxes.org:/fastq
 ```
